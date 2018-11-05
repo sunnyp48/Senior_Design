@@ -8,6 +8,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { MapPage } from '../pages/map/map';
 import { Geolocation } from '@ionic-native/geolocation';
+import { Pedometer } from '@ionic-native/pedometer';
+
 
 @NgModule({
   declarations: [
@@ -29,6 +31,7 @@ import { Geolocation } from '@ionic-native/geolocation';
     StatusBar,
     SplashScreen,
     Geolocation,
+    Pedometer,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
